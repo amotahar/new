@@ -16,7 +16,7 @@ h2{
 
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -61,5 +61,22 @@ h2{
     margin-right: 5%;
     padding: 2px;
     border-radius: 10px;
+   
+}
 
+#web-dev-experiance{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stack-experiance{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, pink);
+    border-image-slice: 1;
+
+}
+
+footer p{
+    text-align: center;
 }
